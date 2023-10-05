@@ -1,0 +1,9 @@
+200(OK) - Indicates the request has successed
+201(Created) - Indicates the request has been successed and new resource has been created
+304(Not Modified) - Indicates the client that the response has not been modified, so the client can continue to use the same cached version of the response.
+400(Bad Request) - The request could not be understand by the server due to incorrect syntax
+401(Unauthorised) - Indicates the request requires user authentication
+403(Forbidden) - Unauthorise request where the client does not have access to content.
+404(Not found) - The server cannot find the requested resource
+500(Internal Server Error) - Server encountered unexpected condition that prevent it from fulfilling the request
+503(Service Unavailable) - Server is not ready to handle the request
